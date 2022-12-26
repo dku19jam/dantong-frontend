@@ -21,6 +21,10 @@ const NavBackground = styled.div`
     height: 100vh;
     padding: 10px 0px;
     box-sizing: border-box;
+    .logo {
+        font-size: 40px;
+        color: #0D276B!important;
+    }
 
     .navBtn {
         font-size: 40px;
@@ -74,7 +78,7 @@ export default function NavBar(){
     return(
         <>
             <NavBackground>
-                <FontAwesomeIcon className={`${router.pathname === "/" ? "active" : ""} navBtn`} icon={faBookOpen} />
+                <FontAwesomeIcon className="logo" icon={faBookOpen} />
                 <Link href="/">
                     <FontAwesomeIcon className={`${router.pathname === "/" ? "active" : ""} navBtn`} icon={faHome} />
                 </Link>
