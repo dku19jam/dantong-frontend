@@ -5,8 +5,6 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/dantong_frontend",
-  assetPrefix: "/dantong_frontend"
 }
 
 module.exports = nextConfig
