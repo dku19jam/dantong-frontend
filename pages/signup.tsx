@@ -86,7 +86,7 @@ export default function SignUp() {
     const api = axios.create({
       baseURL:"http://localhost:8080",
     });
-    api.post("user",requestBody)
+    api.post("users",requestBody)
     .then((res) => {
       console.log(res);
     })
